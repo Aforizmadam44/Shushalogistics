@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:root {
+  --currentColor: #b90470;
+}
+.header {
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  background-color: var(--currentColor);
+  padding: 25px 60px;
+  justify-content: space-between;
+  color: #fff;
+}
+.number {
+  display: flex;
+  gap: 30px;
+}
+.number a {
+  color: #fff;
+}
+.icons a i {
+  margin: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+.icons a i:hover {
+  text-shadow: 0 0 10px white;
+  color: #b90470;
+}
+.container {
+  background-image: url(image\ 1.png);
+  height: calc(100vh - 50px);
+  background-position: center;
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  margin: 0 auto;
+  width: 1118px;
+  height: 80px;
+  /* position: absolute; */
+  top: 25px;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.navbar a {
+  margin: 20px;
+  color: black;
+  transform: 1s all ease;
+}
+.navbar a:hover {
+  border-bottom: 3px solid var(--currentColor);
+}
+.button {
+  padding: 10px 30px;
+  background-color: var(--currentColor);
+  color: #fff;
+  border-color: transparent;
+  cursor: pointer;
+  box-shadow: 0 0 10px var(--currentColor);
+  border-radius: 10px;
+}
+.button:hover {
+  border: 1px solid var(--currentColor);
+  background-color: #fff;
+  color: var(--currentColor);
+}
+.contentText {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  margin: 70px 200px;
+}
+.contentText h1 {
+  font-size: 100px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.contentText h2 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.pch {
+  color: black
+  font-weight: 900;
+  width: 60ch;
+  margin-bottom: 20px;
+}
+.queans {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 50px;
+  gap: 200px;
+}
+.question {
+  width: 30%;
+}
+.question h3 {
+  color: #b90470;
+}
+.question h2 {
+  font-size: 50px;
+}
+.answer {
+  width: 70%;
+  width: 70ch;
+  text-align: justify;
+}
+.scania {
+  width: 1280px;
+  height: 303px;
+  background-image: url(image\ 2.png);
+  margin: 40px auto;
+}
+.scaniaText {
+  width: 100ch;
+  margin: 50px auto;
+  text-align: center;
+}
